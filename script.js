@@ -80,6 +80,7 @@ function addtoCart(productId) {
         case 'second_product':
             if(SecondQuantity == 0){
                 alert("First Select the Quantity");
+                return;
             }
             productName = "Macbook Pro";
             productPrice = price['macbook'];
@@ -90,6 +91,7 @@ function addtoCart(productId) {
         case 'third_product':
             if(ThirdQuantity == 0){
                 alert("First Select the Quantity");
+                return;
             }
             productName = "Samsung Pro 13";
             productPrice = price['samsung'];
